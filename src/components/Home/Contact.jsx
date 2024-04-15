@@ -51,7 +51,7 @@ const Contact = () => {
           <h2 className="text-black text-[32px] font-semibold leading-[48px]">
             Closer Than a Click Away
           </h2>
-          <div className="flex flex-col justify-center items-start gap-y-4">
+          <div className="w-full flex flex-col justify-center items-start gap-y-4">
             <div className="w-full">
               <label htmlFor="name" className="text-sm font-normal">
                 Name
