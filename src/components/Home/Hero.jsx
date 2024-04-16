@@ -1,6 +1,7 @@
 import React from "react";
 import { styles } from "../../styles/styles";
 import { AppStore, GooglePlay, HeroImage } from "../../assets/export";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -12,7 +13,9 @@ const Hero = () => {
               <span className={`${styles.greenText} font-bold`}>Discover</span>{" "}
               Your <br />
               Health Journey with <br />
-              <span className={`${styles.greenText} font-bold`}>My Medical Journal</span>
+              <span className={`${styles.greenText} font-bold`}>
+                My Medical Journal
+              </span>
             </h1>
             <p className={`${styles.secondaryText} font-normal text-sm`}>
               Empower Yourself with Personalized Symptom Tracking and Insightful
@@ -20,8 +23,12 @@ const Hero = () => {
             </p>
           </div>
           <div className="flex items-center justify-start gap-x-0">
-            <img src={GooglePlay} alt="" className=""/>
-            <img src={AppStore} alt="" className=""/>
+            <Link to="/">
+              <img src={GooglePlay} alt="" className="" />
+            </Link>
+            <Link to="/">
+              <img src={AppStore} alt="" className="" />
+            </Link>
           </div>
           <div className="flex items-center gap-x-6 md:gap-x-16 md:ps-2">
             <div>

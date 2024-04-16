@@ -1,6 +1,10 @@
 import React from "react";
-import { styles } from "../../styles/styles";
-import { AppStore, GooglePlay, StartYourJourneyImage } from "../../assets/export";
+import {
+  AppStore,
+  GooglePlay,
+  StartYourJourneyImage,
+} from "../../assets/export";
+import { Link } from "react-router-dom";
 
 const StartYourJourney = () => {
   return (
@@ -17,12 +21,16 @@ const StartYourJourney = () => {
             Download now to embark on your journey towards better health.
           </p>
           <div className="flex items-center gap-4 pt-2">
-            <img src={GooglePlay} alt="" className=""/>
-            <img src={AppStore} alt="" className="" />
+            <Link to="/">
+              <img src={GooglePlay} alt="" className="" />
+            </Link>
+            <Link to="/">
+              <img src={AppStore} alt="" className="" />
+            </Link>
           </div>
         </div>
         <div className="col-span-12 lg:col-span-6 flex justify-center items-center order-1 lg:order-2">
-            <img src={StartYourJourneyImage} alt="" className=""/>
+          <img src={StartYourJourneyImage} alt="" className="" />
         </div>
       </div>
     </div>

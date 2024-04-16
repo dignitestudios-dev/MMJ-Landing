@@ -3,6 +3,7 @@ import { Logo } from "../../assets/export";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -14,20 +15,20 @@ const Footer = () => {
         <div className="col-span-12 md:col-span-4 flex flex-col justify-start items-start lg:items-center gap-y-4">
           <p className="text-xl xl:text-2xl font-semibold leading-[27.72px]">Find us on Social Media</p>
           <div className="flex items-center justify-center gap-x-6">
-            <a href="/" className="w-11 h-11 border-[1px] border-black rounded-full flex justify-center items-center">
+            <Link to="/" className="w-11 h-11 border-[1px] border-black rounded-full flex justify-center items-center">
               <FaFacebookF className="w-5 h-5" />
-            </a>
-            <a href="/" className="w-11 h-11 border-[1px] border-black rounded-full flex justify-center items-center">
+            </Link>
+            <Link to="/" className="w-11 h-11 border-[1px] border-black rounded-full flex justify-center items-center">
               <FaTwitter className="w-5 h-5" />
-            </a>
-            <a href="/" className="w-11 h-11 border-[1px] border-black rounded-full flex justify-center items-center">
+            </Link>
+            <Link to="/" className="w-11 h-11 border-[1px] border-black rounded-full flex justify-center items-center">
               <FaLinkedinIn className="w-5 h-5" />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="col-span-12 md:col-span-4 flex flex-col items-start lg:items-end gap-y-4">
           <p className="text-lg xl:text-xl font-semibold leading-[23.1px]">We’re always happy to help.</p>
-          <a href="mailto:info@mymedicaljourney.com" className={`text-sm font-light leading-[16.17px]`}>info@mymedicaljourney.com</a>
+          <Link to="mailto:info@mymedicaljourney.com" className={`text-sm font-light leading-[16.17px]`}>info@mymedicaljourney.com</Link>
         </div>
       </div>
       <hr />
