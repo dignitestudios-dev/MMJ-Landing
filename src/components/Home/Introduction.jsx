@@ -8,9 +8,9 @@ const Introduction = () => {
         <div className="col-span-5 flex justify-center items-center order-2 lg:order-1">
           <img src={IntrodctionImage} alt="" className="xl:h-[604px] xl:w-[299px]" />
         </div>
-        <div className="col-span-7 flex flex-col justify-start gap-y-6 order-1 lg:order-2">
+        <div className="col-span-7 flex flex-col justify-start gap-y-6 order-1 lg:order-2 xl:px-4">
           <h2 className="text-[32px] font-semibold">Introduction</h2>
-          <div className="flex flex-col gap-y-6 xl:px-4">
+          <div className="flex flex-col gap-y-6">
             <p className="text-sm font-normal leading-[21px]">
               Imagine walking into your doctor's office armed with a detailed
               report of your health trends, symptoms, and progress over time.
