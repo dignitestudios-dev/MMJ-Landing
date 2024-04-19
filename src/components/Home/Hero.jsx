@@ -22,7 +22,13 @@ const Hero = () => {
               Data Analysis
             </p>
           </div>
-          <div className="flex items-center justify-start gap-x-0">
+          <div className="flex flex-col gap-1">
+            <p className={`text-white font-bold text-4xl`}>
+              Launching Soon!
+            </p>
+            {/* <p className={`${styles.secondaryText} font-normal text-sm`}>The app is under development.</p> */}
+          </div>
+          <div className="flex items-center justify-start gap-x-0 md:gap-x-4">
             <Link to="/">
               <img src={GooglePlay} alt="" className="" />
             </Link>
@@ -30,7 +36,8 @@ const Hero = () => {
               <img src={AppStore} alt="" className="" />
             </Link>
           </div>
-          <div className="flex items-center gap-x-6 md:gap-x-16 md:ps-2">
+          
+          {/* <div className="flex items-center gap-x-6 md:gap-x-16 md:ps-2">
             <div>
               <p className="text-white text-3xl font-bold">4.8</p>
               <p className={`text-base font-normal ${styles.secondaryText}`}>
@@ -43,7 +50,7 @@ const Hero = () => {
                 Active users
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="col-span-12 lg:col-span-6 flex justify-center items-end md:bg-transparent">
           <img src={HeroImage} alt="" />
