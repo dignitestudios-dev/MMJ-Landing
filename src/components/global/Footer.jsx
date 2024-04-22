@@ -34,7 +34,11 @@ const Footer = () => {
       <hr />
       <div className="flex flex-col md:flex-row justify-between items-center md:py-3 gap-y-3">
         <p className="text-sm font-light leading-[16.17px] text-center">Copyright © 2024 My Medical Journey. All rights reserved.</p>
-        <p className="text-sm font-light leading-[16.17px]">Terms & Conditions/ Privacy Policy</p>
+        <div className="flex justify-center items-center gap-x-1">
+          <Link className="text-sm font-light leading-[16.17px]" to={"/terms-and-conditions"}>Terms & Conditions</Link>
+          <span>/</span>
+          <Link className="text-sm font-light leading-[16.17px]" to={"/privacy-policy"}>Privacy Policy</Link>
+          </div>
       </div>
     </div>
   );
