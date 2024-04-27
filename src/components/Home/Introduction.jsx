@@ -19,7 +19,7 @@ const Introduction = () => {
               revolutionizing the way you manage your well-being
             </p>
             <p>
-              n today's bustling world, staying on top of your health can often
+              In today's bustling world, staying on top of your health can often
               be challenging. That's why we've designed an app that not only
               simplifies health tracking but also empowers you to make informed
               decisions about your wellness journey. <br />
