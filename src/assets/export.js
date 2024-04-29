@@ -6,6 +6,7 @@ import HeroBg from "./hero-bg.png";
 import IntrodctionImage from "./introduction.png";
 import StartYourJourneyImage from "./start-your-journey-today.png";
 import SelfAssessmentImage from "./self-assessment.png"
+import MyMedical2 from "./my-medical-2.png"
 
 export {
   Logo,
@@ -15,5 +16,6 @@ export {
   HeroBg,
   IntrodctionImage,
   StartYourJourneyImage,
-  SelfAssessmentImage
+  SelfAssessmentImage,
+  MyMedical2
 };
