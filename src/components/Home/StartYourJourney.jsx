@@ -7,7 +7,7 @@ import {
 import { Link } from "react-router-dom";
 
 const StartYourJourney = () => {
-  return (
+  return ( 
     <div className="w-full py-6 md:py-20 px-4 lg:px-16">
       <div className="w-full h-full grid grid-cols-1 lg:grid-cols-12 gap-y-6 lg:gap-y-0">
         <div className="col-span-12 lg:col-span-6 flex flex-col items-start justify-center gap-y-4 xl:ps-24 text-justify order-2 lg:order-1">
