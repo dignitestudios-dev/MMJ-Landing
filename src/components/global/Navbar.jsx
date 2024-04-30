@@ -3,6 +3,7 @@ import { Logo } from "../../assets/export";
 import NavLink from "./NavLink";
 import { TbMenuDeep } from "react-icons/tb";
 import { IoClose } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -10,9 +11,9 @@ const Navbar = () => {
     <div
       className={`px-8 lg:px-24 py-6 flex items-center justify-center relative`}
     >
-      <div className="mr-auto">
+      <Link to="/" className="mr-auto">
         <img src={Logo} alt="" className="w-[146px] h-[39px]" />
-      </div>
+      </Link>
       <div className="hidden lg:flex items-center gap-x-16 mr-auto">
         <NavLink label={"Home"} id={"/"} />
         <NavLink label={"Introduction"} id={"#introduction"} />
