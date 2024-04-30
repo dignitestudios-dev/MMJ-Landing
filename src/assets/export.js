@@ -7,6 +7,7 @@ import IntrodctionImage from "./introduction.png";
 import StartYourJourneyImage from "./start-your-journey-today.png";
 import SelfAssessmentImage from "./self-assessment.png"
 import MyMedical2 from "./my-medical-2.png"
+import MMJLogo from "./mmj-logo.svg"
 
 export {
   Logo,
@@ -17,5 +18,6 @@ export {
   IntrodctionImage,
   StartYourJourneyImage,
   SelfAssessmentImage,
-  MyMedical2
+  MyMedical2,
+  MMJLogo
 };

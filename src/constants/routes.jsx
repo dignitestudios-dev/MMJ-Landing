@@ -1,8 +1,8 @@
-import React from "react";
+import React, { lazy } from "react";
 import Layout from "../components/global/Layout";
-import Home from "../pages/Home";
-import PrivacyPolicy from "../pages/PrivacyPolicy";
-import TermsAndConditions from "../pages/TermsAndConditions";
+const Home = lazy(() => import("../pages/Home"));
+const PrivacyPolicy = lazy(()=>import("../pages/PrivacyPolicy"))
+const TermsAndConditions = lazy(()=>import("../pages/TermsAndConditions"))
 
 export const routes = [
   {
