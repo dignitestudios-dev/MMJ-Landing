@@ -22,17 +22,16 @@ const Hero = () => {
               Data Analysis
             </p>
           </div>
-          <div className="flex flex-col gap-1">
+          {/* <div className="flex flex-col gap-1">
             <p className={`text-white font-bold text-4xl`}>
               Launching Soon!
             </p>
-            {/* <p className={`${styles.secondaryText} font-normal text-sm`}>The app is under development.</p> */}
-          </div>
-          <div className="flex items-center justify-start gap-x-0 md:gap-x-4">
-            <Link to="/">
+          </div> */}
+          <div className="flex items-center justify-start gap-x-0 md:gap-x-6">
+            <Link to="/" target="_blank" className="">
               <img src={GooglePlay} alt="" className="" />
             </Link>
-            <Link to="/">
+            <Link to="https://apps.apple.com/us/app/my-medical-journal-app/id6502008545" target="_blank" className="">
               <img src={AppStore} alt="" className="" />
             </Link>
           </div>

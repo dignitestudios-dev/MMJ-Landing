@@ -24,7 +24,7 @@ const StartYourJourney = () => {
             <Link to="/">
               <img src={GooglePlay} alt="" className="" />
             </Link>
-            <Link to="/">
+            <Link to="https://apps.apple.com/us/app/my-medical-journal-app/id6502008545" target="_blank">
               <img src={AppStore} alt="" className="" />
             </Link>
           </div>
