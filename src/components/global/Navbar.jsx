@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import { Logo } from "../../assets/export";
+import {  MMJLogo } from "../../assets/export";
 import NavLink from "./NavLink";
 import { TbMenuDeep } from "react-icons/tb";
-import { IoClose } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -12,7 +11,7 @@ const Navbar = () => {
       className={`px-8 lg:px-24 py-6 flex items-center justify-center relative`}
     >
       <Link to="/" className="mr-auto">
-        <img src={Logo} alt="" className="w-[146px] h-[39px]" />
+        <img src={MMJLogo} alt="" className="w-[146px] h-[39px]" />
       </Link>
       <div className="hidden lg:flex items-center gap-x-16 mr-auto">
         <NavLink label={"Home"} id={"/"} />
