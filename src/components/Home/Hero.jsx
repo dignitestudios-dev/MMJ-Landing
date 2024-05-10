@@ -23,10 +23,10 @@ const Hero = () => {
             </p>
           </div>
           <div className="flex items-center justify-start gap-x-2 md:gap-x-6">
-            <Link to="/" className="">
+            <Link to="https://play.google.com/store/apps/details?id=com.dignitestudios.mymedicaljournal" target="_blank">
               <img src={GooglePlay} alt="" className="h-16 lg:h-14" />
             </Link>
-            <Link to="https://apps.apple.com/us/app/my-medical-journal-app/id6502008545" target="_blank" className="">
+            <Link to="https://apps.apple.com/us/app/my-medical-journal-app/id6502008545" target="_blank">
               <img src={AppStore} alt="" className="h-16 lg:h-14" />
             </Link>
           </div>

@@ -21,7 +21,7 @@ const StartYourJourney = () => {
             Download now to embark on your journey towards better health.
           </p>
           <div className="flex items-center gap-4 pt-2">
-            <Link to="/">
+            <Link to="https://play.google.com/store/apps/details?id=com.dignitestudios.mymedicaljournal" target="_blank">
               <img src={GooglePlay} alt="" className="h-14" />
             </Link>
             <Link to="https://apps.apple.com/us/app/my-medical-journal-app/id6502008545" target="_blank">
